@@ -1,12 +1,10 @@
-android {
-    defaultConfig {
-        python {
-            version "3.8"  // يجب أن يكون مدعومًا من Chaquopy 14.0.2
-            pip {
-                install "six==1.16.0"  // إصلاح مشكلة الإصدار
-                // أضف باقي حزم بايثون هنا
-                install "requests"  // مثال
-            }
-        }
-    }
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+plugins {
+    id 'com.android.application' version '7.2.1' apply false
+    id 'com.android.library' version '7.2.1' apply false
+    id 'com.chaquo.python' version '16.1.0' apply false
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
 }
