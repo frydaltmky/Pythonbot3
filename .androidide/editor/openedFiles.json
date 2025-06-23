@@ -1,0 +1,20 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/FloatingWindowTeast/app/src/main/res/layout/activity_main.xml",
+      "selection": {
+        "end": {
+          "column": 28,
+          "index": -1,
+          "line": 66
+        },
+        "start": {
+          "column": 28,
+          "index": -1,
+          "line": 66
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/FloatingWindowTeast/app/src/main/res/layout/activity_main.xml"
+}

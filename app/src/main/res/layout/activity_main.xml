@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:background="#000000"
+     android:paddingBottom="15dp"
+     tools:context=".MainActivity">
+
+    <Button
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:layout_centerInParent="true"
+         android:background="@android:color/transparent"
+         android:id="@+id/youtube"
+         android:text="YouTube channel"
+        android:textSize="16sp"
+    	android:textStyle="bold"
+     	android:textColor="#F44336" />
+
+    <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:gravity="center_horizontal"
+         android:padding="8dp"
+         android:textSize="12sp"
+         android:translationY="20.0dp"
+         android:textColor="#BDBDBD"
+         android:id="@+id/textview3"
+         android:text="For help, go to the Telegram group or YouTube channel"
+         android:textStyle="italic"
+         android:layout_gravity="center_horizontal" />
+
+    <Button
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:layout_below="@id/telegram"
+         android:background="@android:color/transparent"
+         android:layout_centerHorizontal="true"
+         android:translationY="200.0dp"
+         android:textSize="16sp"
+		
+     	android:textStyle="bold"
+     	android:textColor="#2196F3"
+         android:id="@+id/telegram"
+         android:text="Telegram group" />
+
+    <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:padding="0dp"
+         android:textSize="12sp"
+         android:translationY="520.0dp"
+         android:textColor="#EEEEEE"
+         android:id="@+id/textview4"
+         android:text= " ..تم تطوير البوت من قبل TOP FIRE"
+         android:textStyle="italic"
+        android:layout_margin="30dp"
+         
+          />
+
+    <Switch
+         android:layout_height="55dp"
+         android:layout_width="match_parent"
+         android:padding="10dp"
+         android:textSize="15sp"
+         android:layout_centerHorizontal="true"
+         android:textColor="#FFFFFF"
+         android:background="#1A237E"
+         android:gravity="center_horizontal"
+         android:layout_margin="8dp"
+         android:layout_alignParentBottom="true"
+         android:checked="true"
+         android:id="@+id/mySwitch"
+         android:text="START" />
+
+</RelativeLayout>
