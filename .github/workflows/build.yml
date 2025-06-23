@@ -2,7 +2,7 @@ name: Build Java Project
 
 on:
   push:
-    branches: [ main ]  # ← عدل إلى master إذا كان هذا هو فرعك الرئيسي
+    branches: [ main ]
   pull_request:
 
 jobs:
@@ -20,13 +20,13 @@ jobs:
         distribution: 'temurin'
 
     - name: Give permissions to gradlew
-      run: chmod +x ServerX/gradlew
+      run: chmod +x ./gradlew
 
     - name: Build with Gradle
-      run: cd ServerX && ./gradlew build
+      run: ./gradlew build
 
     - name: Upload build outputs
       uses: actions/upload-artifact@v4
       with:
         name: compiled-output
-        path: ServerX/build/libs/
+        path: build/libs/
