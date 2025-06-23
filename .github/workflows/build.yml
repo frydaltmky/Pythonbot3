@@ -1,9 +1,8 @@
-
 name: Build Java Project
 
 on:
   push:
-    branches: [ master ]  # أو main إذا كنت تستخدم هذا الفرع
+    branches: [ main ]  # ← عدل إلى master إذا كان هذا هو فرعك الرئيسي
   pull_request:
 
 jobs:
